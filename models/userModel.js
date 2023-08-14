@@ -21,6 +21,10 @@ var userSchema = new mongoose.Schema({
         type:String,
         required:true,
     },
+    vaitro:{
+        type: String,
+        default:"user",
+    }
 });
 
 // ma hoa mat khau
